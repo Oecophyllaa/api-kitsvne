@@ -4,7 +4,7 @@
 
 # CMS Kitsvne Store
 
-Sebuah Content Management System (Admin) sederhana yang dibuat menggunakan Laravel untuk memudahkan proses pengambilan data pada FrontEnd Kitsvne Store melalui API Endpoint
+Sebuah Content Management System (Admin) sederhana yang dibuat menggunakan Laravel untuk memudahkan proses pengolahan konten pada Frontend Kitsvne Store melalui API Endpoint
 
 
 ## Run Locally
