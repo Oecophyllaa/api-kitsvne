@@ -2,9 +2,9 @@
 ![Logo](https://i.ibb.co/wyGGShX/Kitsvne.png)
 
 
-# API Kitsvne Store
+# CMS Kitsvne Store
 
-Sebuah API sederhana yang dibuat menggunakan Laravel untuk memudahkan proses pengambilan data pada FrontEnd Kitsvne Store
+Sebuah Content Management System (Admin) sederhana yang dibuat menggunakan Laravel untuk memudahkan proses pengambilan data pada FrontEnd Kitsvne Store melalui API Endpoint
 
 
 ## Run Locally
