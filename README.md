@@ -12,7 +12,7 @@ Sebuah Content Management System (Admin) sederhana yang dibuat menggunakan Larav
 Clone the project
 
 ```bash
-  git clone https://github.com/Oecophyllaa/api-kitsvne.git
+  git clone https://github.com/Oecophyllaa/cms-kitsvne.git
 ```
 
 Go to the project directory
