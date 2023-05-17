@@ -18,13 +18,23 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd api-kitsvne
+  cd cms-kitsvne
 ```
 
 Install dependencies
 
 ```bash
   composer install
+  npm install
+  npm run dev
+```
+
+Setup environment
+
+```bash
+  cp .env.example .env
+  php artisan key:generate
+  php artisan migrate
 ```
 
 Start the server
