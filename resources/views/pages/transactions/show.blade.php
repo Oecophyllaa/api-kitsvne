@@ -1,4 +1,4 @@
-<table class="table table-bordered">
+<table class="table-bordered table">
   <tr>
     <th>Nama</th>
     <td>{{ $item->name }}</td>
@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <th>Total Transaksi</th>
-    <td>{{ $item->transaction_total }}</td>
+    <td>Rp {{ number_format($item->transaction_total) }}</td>
   </tr>
   <tr>
     <th>Status Transaksi</th>
@@ -26,7 +26,7 @@
   <tr>
     <th>Pembelian Produk</th>
     <td>
-      <table class="table table-bordered w-100">
+      <table class="table-bordered w-100 table">
         <tr>
           <th>Nama</th>
           <th>Tipe</th>
@@ -36,7 +36,7 @@
           <tr>
             <td>{{ $detail->product->name }}</td>
             <td>{{ $detail->product->type }}</td>
-            <td>${{ $detail->product->price }}</td>
+            <td>Rp {{ number_format($detail->product->price) }}</td>
           </tr>
         @endforeach
       </table>

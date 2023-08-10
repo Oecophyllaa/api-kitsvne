@@ -22,10 +22,10 @@
 <body>
   {{-- Sidebar --}}
   @include('includes.sidebar')
-  
+
   <div id="right-panel" class="right-panel">
     @include('includes.navbar')
-    
+
     <div class="content">
       {{-- Content --}}
       @yield('content')
